@@ -1,2 +1,0 @@
-# Blog
-nodes.ro Blog
