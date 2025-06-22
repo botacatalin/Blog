@@ -3,7 +3,7 @@
     <title>nodes.ro Blog </title>
     <link href="https://botacatalin.github.io/Blog/feed.xml" rel="self" />
     <link href="https://botacatalin.github.io/Blog" />
-    <updated>2025-06-22T09:34:05+03:00</updated>
+    <updated>2025-06-22T10:21:12+03:00</updated>
     <author>
         <name>Catalin</name>
     </author>
@@ -48,7 +48,7 @@
 </ul>
 <p class="msg msg--info" data-start="52" data-end="156">You can start developing on <strong data-start="80" data-end="108">Windows, macOS, or Linux</strong>, as Eclipse RCP is a cross-platform technology.</p>
 <h4 data-pm-slice="0 0 []">Step 1: Explaining the Project</h4>
-<p class="msg msg--info" data-pm-slice="0 0 []"><svg class="fi fi-github" width="24px" height="24px" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><use href="https://botacatalin.github.io/Blog/media/plugins/featherIcons/feather-sprite.svg#github" /></svg> You can find the full base application on my github page:  <a href="https://github.com/botacatalin/nodes-rcp-desktop/">https://github.com/botacatalin/nodes-rcp-desktop/</a></p>
+<p class="msg msg--info" data-pm-slice="0 0 []"><svg class="fi fi-github" width="24px" height="24px" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><use href="https://botacatalin.github.io/Blog/media/plugins/featherIcons/feather-sprite.svg#github" /></svg> You can find the full base application on my github page:  <a class="Link--inTextBlock" href="https://nodes-ro.github.io/nodes-rcp-desktop/">https://nodes-ro.github.io/nodes-rcp-desktop/</a> </p>
 <p data-pm-slice="0 0 []"> </p>
 <p data-pm-slice="0 0 []">Our project will contain a parent module and four other sub modules.</p>
 <ul>
