@@ -3,7 +3,7 @@
     <title>nodes.ro Blog </title>
     <link href="https://botacatalin.github.io/Blog/feed.xml" rel="self" />
     <link href="https://botacatalin.github.io/Blog" />
-    <updated>2025-06-22T08:47:59+03:00</updated>
+    <updated>2025-06-22T09:34:05+03:00</updated>
     <author>
         <name>Catalin</name>
     </author>
@@ -16,17 +16,20 @@
         </author>
         <link href="https://botacatalin.github.io/Blog/how-to-create-a-desktop-application-a-beginner-friendly-guide.html"/>
         <id>https://botacatalin.github.io/Blog/how-to-create-a-desktop-application-a-beginner-friendly-guide.html</id>
+        <media:content url="https://botacatalin.github.io/Blog/media/posts/16/ChatGPT-Image-Jun-22-2025-at-09_33_18-AM.png" medium="image" />
             <category term="technical posts"/>
             <category term="english"/>
 
         <updated>2025-06-22T07:26:13+03:00</updated>
             <summary>
                 <![CDATA[
+                        <img src="https://botacatalin.github.io/Blog/media/posts/16/ChatGPT-Image-Jun-22-2025-at-09_33_18-AM.png" alt="" />
                     I’ve been working with Eclipse RCP (Rich Client Platform) to build modular&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
+                    <p><img src="https://botacatalin.github.io/Blog/media/posts/16/ChatGPT-Image-Jun-22-2025-at-09_33_18-AM.png" class="type:primaryImage" alt="" /></p>
                 <p>I’ve been working with <strong data-start="289" data-end="327">Eclipse RCP (Rich Client Platform)</strong> to build modular and robust desktop applications. Eclipse RCP provides a modern framework for creating feature-rich desktop apps based on a proven plugin architecture. In this post, I’ll show you — step by step — how to build a basic Eclipse RCP application: from project setup to running your first app.</p>
 <p>I’ll cover the key technologies needed, how to integrate <strong data-start="690" data-end="699">Maven</strong> (as of mid-2025), and share useful tips based on my own experience — so you can quickly start building your own desktop software.</p>
 <h4>What is RCP?</h4>
