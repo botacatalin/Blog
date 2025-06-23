@@ -3,7 +3,7 @@
     <title>nodes.ro Blog </title>
     <link href="https://botacatalin.github.io/Blog/feed.xml" rel="self" />
     <link href="https://botacatalin.github.io/Blog" />
-    <updated>2025-06-22T10:21:12+03:00</updated>
+    <updated>2025-06-23T07:26:54+03:00</updated>
     <author>
         <name>Catalin</name>
     </author>
@@ -106,7 +106,14 @@
 </li>
 <li data-start="470" data-end="483">Click <strong data-start="476" data-end="483">Run</strong></li>
 </ul>
-<p>After you get <span style="background-color: #2f2f2f; padding: 0px 0px 0px 2px;"><span style="color: #cccccc; background-color: #2f2f2f; font-family: 'Menlo'; font-size: 12pt; white-space: pre;"><span style="color: #25bc24; font-weight: bold;">BUILD SUCCESS</span></span></span> go to <code class="whitespace-pre!"><span class="hljs-attribute">nodes_repository/target/products/nodes.product/ ...</span></code>  and select the executable for your platform.</p>
+<p>After you get <span style="background-color: #2f2f2f; padding: 0px 0px 0px 2px;"><span style="color: #cccccc; background-color: #2f2f2f; font-family: 'Menlo'; font-size: 12pt; white-space: pre;"><span style="color: #25bc24; font-weight: bold;">BUILD SUCCESS</span></span></span> go to <code class="whitespace-pre!"><span class="hljs-attribute">nodes_repository/target/products/nodes.product/ ...</span></code>  and select the executable for your platform. This generates a standalone application that you can run directly on your computer.</p>
+<h4>Why would you use this approach ?</h4>
+<p>To develop:</p>
+<ul>
+<li>Internal Tools - Domain-Specific Applications.</li>
+<li>Proof-of-Concepts &amp; Rapid Prototypes.</li>
+</ul>
+<p> </p>
             ]]>
         </content>
     </entry>
