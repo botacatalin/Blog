@@ -3,7 +3,7 @@
     <title>nodes.ro Blog </title>
     <link href="https://botacatalin.github.io/Blog/feed.xml" rel="self" />
     <link href="https://botacatalin.github.io/Blog" />
-    <updated>2025-06-23T07:26:54+03:00</updated>
+    <updated>2025-06-23T20:27:06+03:00</updated>
     <author>
         <name>Catalin</name>
     </author>
@@ -61,6 +61,7 @@
 </ul>
 </li>
 </ul>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://botacatalin.github.io/Blog/media/posts/16/nodes_rcp_printscreen.png" alt="Nodes RCP Application" width="2640" height="1636" sizes="(min-width: 760px) 660px, calc(93.18vw - 30px)" srcset="https://botacatalin.github.io/Blog/media/posts/16/responsive/nodes_rcp_printscreen-xs.png 320w ,https://botacatalin.github.io/Blog/media/posts/16/responsive/nodes_rcp_printscreen-sm.png 480w ,https://botacatalin.github.io/Blog/media/posts/16/responsive/nodes_rcp_printscreen-md.png 768w ,https://botacatalin.github.io/Blog/media/posts/16/responsive/nodes_rcp_printscreen-xl.png 1024w"></figure>
 <p>In this Eclipse RCP project, we use <strong data-start="398" data-end="415">Maven + Tycho</strong> to manage the build, versions, and packaging of the application. This approach gives us a fully automated, reproducible build for the RCP app.</p>
 <h5>parent-pom</h5>
 <ul>
