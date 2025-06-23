@@ -3,7 +3,7 @@
     <title>nodes.ro Blog </title>
     <link href="https://botacatalin.github.io/Blog/feed.xml" rel="self" />
     <link href="https://botacatalin.github.io/Blog" />
-    <updated>2025-06-23T20:27:06+03:00</updated>
+    <updated>2025-06-23T20:42:27+03:00</updated>
     <author>
         <name>Catalin</name>
     </author>
@@ -75,7 +75,7 @@
 <h5>nodes_feature</h5>
 <p>This module defines an <strong data-start="2095" data-end="2114">Eclipse Feature</strong>.<strong data-start="2095" data-end="2114"> </strong>Groups together one or more plugins (usually your main plugin plus optional dependencies).We use this because Eclipse RCP products are built from features, not plugins directly.</p>
 <h5>nodes_plugin</h5>
-<p>This is the <strong data-start="1714" data-end="1729">main plugin</strong>. Contains your RCP application code like: Application model, Menus &amp; commands, Services. You will spend 80% of your coding time here.</p>
+<p>This is the <strong data-start="1714" data-end="1729">main plugin</strong>. Contains your RCP application code like:  Menus &amp; Commands, Services. You will spend 80% of your coding time here.</p>
 <p>It also contains <strong data-start="355" data-end="378"><code data-start="357" data-end="376">Application.e4xmi</code></strong> which is used to define the structure of your app at runtime (Perspectives, Views, Parts, Menus, Toolbars, Handlers ... )</p>
 <h5>nodes_repository</h5>
 <p>This is where your RCP application gets packaged into a real, installable product, either as a standalone product or as an update site. </p>
