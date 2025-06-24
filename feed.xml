@@ -3,7 +3,7 @@
     <title>nodes.ro Blog </title>
     <link href="https://botacatalin.github.io/Blog/feed.xml" rel="self" />
     <link href="https://botacatalin.github.io/Blog" />
-    <updated>2025-06-23T20:42:27+03:00</updated>
+    <updated>2025-06-24T09:58:43+03:00</updated>
     <author>
         <name>Catalin</name>
     </author>
@@ -62,26 +62,90 @@
 </li>
 </ul>
 <figure class="post__image post__image--center"><img loading="lazy"  src="https://botacatalin.github.io/Blog/media/posts/16/nodes_rcp_printscreen.png" alt="Nodes RCP Application" width="2640" height="1636" sizes="(min-width: 760px) 660px, calc(93.18vw - 30px)" srcset="https://botacatalin.github.io/Blog/media/posts/16/responsive/nodes_rcp_printscreen-xs.png 320w ,https://botacatalin.github.io/Blog/media/posts/16/responsive/nodes_rcp_printscreen-sm.png 480w ,https://botacatalin.github.io/Blog/media/posts/16/responsive/nodes_rcp_printscreen-md.png 768w ,https://botacatalin.github.io/Blog/media/posts/16/responsive/nodes_rcp_printscreen-xl.png 1024w"></figure>
-<p>In this Eclipse RCP project, we use <strong data-start="398" data-end="415">Maven + Tycho</strong> to manage the build, versions, and packaging of the application. This approach gives us a fully automated, reproducible build for the RCP app.</p>
+<p>In this Eclipse RCP project, we use <strong data-start="398" data-end="415">Maven + Tycho</strong> to manage the build, versions and packaging the application. This approach gives us a fully automated, reproducible build for the RCP app.</p>
 <h5>parent-pom</h5>
+<p>This contains the parent project pom. </p>
 <ul>
-<li data-start="396" data-end="431">Contains the root Maven project (<code data-start="420" data-end="429">pom.xml</code>).</li>
-<li data-start="396" data-end="431">It is the most complex file in the project as it:
+<li style="list-style-type: none;">
 <ul>
-<li data-start="434" data-end="512">Defines common settings: (the <strong data-start="750" data-end="767">Tycho version</strong> (<code data-start="769" data-end="777">4.0.13</code>), defines <strong data-start="808" data-end="824">Java version</strong> (<code data-start="769" data-end="777">21</code>), Declares a <strong data-start="953" data-end="972">target platform, l</strong>ists all the submodules (in build order).</li>
+<li class="p1"><code><strong>pom.xml</strong></code> – <span class="Apple-converted-space">I</span>ts job is to collect common configuration and to orchestrate the build of the four other sub-modules<strong>. </strong>It configures <strong>Tyco version<code data-start="769" data-end="777">4.0.13</code>, Java <code data-start="769" data-end="777">21</code>. </strong>Look inside this file for additional comments about its content.</li>
 </ul>
 </li>
 </ul>
 <h5>nodes_feature</h5>
 <p>This module defines an <strong data-start="2095" data-end="2114">Eclipse Feature</strong>.<strong data-start="2095" data-end="2114"> </strong>Groups together one or more plugins (usually your main plugin plus optional dependencies).We use this because Eclipse RCP products are built from features, not plugins directly.</p>
+<ul>
+<li style="list-style-type: none;">
+<ul>
+<li class="p1"><code><strong>pom.xml</strong></code> – packaging is set to <strong style="font-family: var(--editor-font-family); font-size: inherit;">eclipse-feature,</strong><span style="color: var(--text-primary-color); font-family: var(--editor-font-family); font-size: inherit; font-weight: var(--font-weight-normal);"> indicating that this module builds an Eclipse feature rather than a standard JAR or plug-in.</span></li>
+<li class="p1"><code><strong>features.xml</strong></code> – Contains the <code data-start="13" data-end="27">nodes_plugin</code>, which delivers the core application functionality. –</li>
+</ul>
+</li>
+</ul>
 <h5>nodes_plugin</h5>
 <p>This is the <strong data-start="1714" data-end="1729">main plugin</strong>. Contains your RCP application code like:  Menus &amp; Commands, Services. You will spend 80% of your coding time here.</p>
-<p>It also contains <strong data-start="355" data-end="378"><code data-start="357" data-end="376">Application.e4xmi</code></strong> which is used to define the structure of your app at runtime (Perspectives, Views, Parts, Menus, Toolbars, Handlers ... )</p>
+<p>It also contains <strong data-start="355" data-end="378"><code data-start="357" data-end="376">Application.e4xmi</code></strong> which is used to define the structure of your app at runtime (Perspectives, Views, Parts, Menus, Toolbars, Handlers ... ).</p>
+<ul>
+<li style="list-style-type: none;">
+<ul>
+<li data-pm-slice="1 1 [&quot;list&quot;,{&quot;spread&quot;:true,&quot;start&quot;:81,&quot;end&quot;:1468},&quot;regular_list_item&quot;,{&quot;start&quot;:81,&quot;end&quot;:329}]"><code><strong>pom.xml</strong></code> – Declares the module as an <code><strong>eclipse-plugin</strong></code>. That tells Tycho to treat it as an OSGi bundle</li>
+<li data-pm-slice="2 4 [&quot;list&quot;,{&quot;spread&quot;:true,&quot;start&quot;:81,&quot;end&quot;:1468}]">
+<p><code><strong>META-INF/MANIFEST.MF</strong></code> – The bundle’s identity card.</p>
+<ul data-spread="false">
+<li>
+<p><code><strong>Export-Package</strong></code> exposes the <code>handlers</code> and <code>parts</code> packages so other bundles can call into them.</p>
+</li>
+<li>
+<p><code><strong>Require-Bundle</strong></code><strong> / </strong><code><strong>Import-Package</strong></code> list the dependecies this plug-in must have at compile time <strong>and</strong> at runtime, ensuring the framework resolves only against compatible versions.</p>
+</li>
+</ul>
+</li>
+<li data-pm-slice="1 1 [&quot;list&quot;,{&quot;spread&quot;:true,&quot;start&quot;:81,&quot;end&quot;:1468},&quot;regular_list_item&quot;,{&quot;start&quot;:81,&quot;end&quot;:329}]">
+<p data-pm-slice="1 1 [&quot;list&quot;,{&quot;spread&quot;:true,&quot;start&quot;:81,&quot;end&quot;:1468},&quot;regular_list_item&quot;,{&quot;start&quot;:716,&quot;end&quot;:953}]"><code><strong>model/Application.e4xmi</strong></code> – A declarative, EMF-typed blueprint of the UI. This file tells the Eclipse platform what UI to create and how it is wired together.</p>
+</li>
+<li data-pm-slice="1 1 [&quot;list&quot;,{&quot;spread&quot;:true,&quot;start&quot;:81,&quot;end&quot;:1468},&quot;regular_list_item&quot;,{&quot;start&quot;:81,&quot;end&quot;:329}]">
+<p data-pm-slice="1 1 [&quot;list&quot;,{&quot;spread&quot;:true,&quot;start&quot;:81,&quot;end&quot;:1468},&quot;regular_list_item&quot;,{&quot;start&quot;:716,&quot;end&quot;:953}]"><code><strong>build.properties</strong></code> – It tells the build system where the Java source folders are and which non-code resources (manifest, XML, icons, splash screen, etc.) have to be packed into the final JAR.</p>
+</li>
+</ul>
+</li>
+<li style="list-style-type: none;"> 
+<ul>
+<li data-pm-slice="1 1 [&quot;list&quot;,{&quot;spread&quot;:true,&quot;start&quot;:81,&quot;end&quot;:1468},&quot;regular_list_item&quot;,{&quot;start&quot;:1187,&quot;end&quot;:1468}]"><code><strong>plugin.xml</strong></code> – Registers the RCP <strong>product</strong> named <strong>“Nodes.”</strong> It points to <code>model/Application.e4xmi</code>.</li>
+</ul>
+</li>
+<li style="list-style-type: none;"> 
+<ul>
+<li class="p1"><code><strong>icons/, splash.bmp</strong></code> – Folders containing project resources</li>
+</ul>
+</li>
+</ul>
+<p> </p>
+<p> </p>
 <h5>nodes_repository</h5>
 <p>This is where your RCP application gets packaged into a real, installable product, either as a standalone product or as an update site. </p>
 <p>It also contains the<strong data-start="334" data-end="353"><code data-start="336" data-end="351">nodes.product</code></strong> file — which describes your actual RCP product.(Determines what will be included in the final installable app, configures branding like splash screens, Specifies JVM arguments)</p>
+<ul>
+<li style="list-style-type: none;">
+<ul>
+<li><code><strong>pom.xml</strong></code> – Has the configuration to package everything produced by earlier modules into a p2 update site and platform-specific, self-contained “Nodes” applications for Windows, Linux and macOS.</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li style="list-style-type: none;">
+<ul>
+<li><code><strong>nodes.product</strong></code> – This .product file is the shipping manifest for the Eclipse RCP app “Nodes”; it defines native launchers and splash branding, sets a few VM/program args, and specifies which features will be installed into the final p2 repo / product.</li>
+</ul>
+</li>
+</ul>
 <h5>nodes_target</h5>
 <p data-start="1243" data-end="1287">This module defines the <strong data-start="1267" data-end="1286">Target Platform</strong>. Describes what version of Eclipse Platform your app runs on and dependencies on Eclipse bundles &amp; external libraries.</p>
+<ul>
+<li><code><strong>pom.xml</strong></code> – Packaging is set to eclipse-target-definition</li>
+</ul>
+<ul>
+<li class="p1"><code><strong>nodes.target</strong></code> – This file describes t<i>he exact Eclipse &amp; third-party plugins/bundles</i> your workspace and Tycho build <strong>must compile against</strong>.</li>
+</ul>
 <h4 data-pm-slice="0 0 []">Step 2: Set up the Project</h4>
 <p>Open Eclipse IDE.</p>
 <p>Go to <code data-start="1242" data-end="1248">Import Projects</code> → <code data-start="1251" data-end="1256">Git</code> → <code data-start="1259" data-end="1269">Projects from Git(with smart import)</code>→ <code data-start="1251" data-end="1256">GitHub</code>→ <code data-start="1251" data-end="1256">Search (nodes-rcp-desktop)</code></p>
