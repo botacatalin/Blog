@@ -3,7 +3,7 @@
     <title>nodes.ro Blog </title>
     <link href="https://botacatalin.github.io/Blog/feed.xml" rel="self" />
     <link href="https://botacatalin.github.io/Blog" />
-    <updated>2025-06-24T09:58:43+03:00</updated>
+    <updated>2025-06-26T07:31:18+03:00</updated>
     <author>
         <name>Catalin</name>
     </author>
@@ -31,7 +31,7 @@
             <![CDATA[
                     <p><img src="https://botacatalin.github.io/Blog/media/posts/16/ChatGPT-Image-Jun-22-2025-at-09_33_18-AM.png" class="type:primaryImage" alt="" /></p>
                 <p>I’ve been working with <strong data-start="289" data-end="327">Eclipse RCP (Rich Client Platform)</strong> to build modular and robust desktop applications. Eclipse RCP provides a modern framework for creating feature-rich desktop apps based on a proven plugin architecture. In this post, I’ll show you — step by step — how to build a basic Eclipse RCP application: from project setup to running your first app.</p>
-<p>I’ll cover the key technologies needed, how to integrate <strong data-start="690" data-end="699">Maven</strong> (as of mid-2025), and share useful tips based on my own experience — so you can quickly start building your own desktop software.</p>
+<p>I’ll walk you through the core technologies, and share practical insights from my own experience—so you can start building desktop software applications with confidence.</p>
 <h4>What is RCP?</h4>
 <p>An RCP application is a modular desktop application built on top of a framework like <strong data-start="614" data-end="629">Eclipse RCP. </strong>It gives you: </p>
 <ul>
