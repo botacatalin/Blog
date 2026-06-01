@@ -110,8 +110,8 @@
             "id": "https://botacatalin.github.io/Blog/povestim-cu-calculatorul.html",
             "url": "https://botacatalin.github.io/Blog/povestim-cu-calculatorul.html",
             "title": "Povestim cu calculatorul",
-            "summary": "Fiind părinte a doi copii minunați și curioși, mi-am dorit să transpun&hellip;",
-            "content_html": "<p>Fiind părinte a doi copii minunați și curioși, mi-am dorit să transpun cunoștințele mele tehnice din domeniul informaticii în explicații simple, pe care să le poată înțelege cu ușurință. Această carte este concepută ca o introducere în limbajele de programare pentru copiii de școală primară, oferindu-le prima incursiune în această lume fascinantă.</p>\n<p>Citește gratuit primul capitol aici : <a href=\"https://botacatalin.github.io/Blog/Capitolul 1 - Povestim cu calculatorul.pdf\">Capitolul 1 - Povestim cu calculatorul</a></p>\n<p>Cartea poate fi citită pe mai multe platforme accesând linkul: <a data-start=\"127\" data-end=\"193\" rel=\"noopener\" target=\"_new\" href=\"https://books2read.com/u/mgwJ2v\">https://books2read.com/u/mgwJ2v</a></p>\n<p> </p>\n<p> </p>",
+            "summary": "SCOPUL ACESTEI CĂRȚI ESTE DE A OFERI O SURSĂ EDUCATIVĂ PENTRU TINERII&hellip;",
+            "content_html": "<blockquote>\n<p class=\"dropcap msg msg--info\">SCOPUL ACESTEI CĂRȚI ESTE DE A OFERI O SURSĂ EDUCATIVĂ PENTRU TINERII CITITORI ÎN LIMBA ROMÂNĂ, DESCHIZÂNDU-LE UȘA CĂTRE FASCINANTA LUME A CALCULATOARELOR ȘI A PROGRAMĂRII</p>\n</blockquote>\n<p>Citește gratuit cartea aici : <a href=\"https://botacatalin.codeberg.page/PovestimCuCalculatorul/\">https://botacatalin.codeberg.page/PovestimCuCalculatorul/</a></p>\n<p> </p>\n<p> </p>",
             "image": "https://botacatalin.github.io/Blog/media/posts/10/book_cover.png",
             "author": {
                 "name": "Catalin"
@@ -120,7 +120,7 @@
                    "română"
             ],
             "date_published": "2025-03-14T06:24:51+02:00",
-            "date_modified": "2025-03-14T07:06:35+02:00"
+            "date_modified": "2026-06-01T11:00:58+03:00"
         },
         {
             "id": "https://botacatalin.github.io/Blog/prima-zi-in-viata-unui-sistem-fotovoltaic.html",

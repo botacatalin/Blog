@@ -3,7 +3,7 @@
     <title>nodes.ro Blog </title>
     <link href="https://botacatalin.github.io/Blog/feed.xml" rel="self" />
     <link href="https://botacatalin.github.io/Blog" />
-    <updated>2025-10-22T07:52:54+03:00</updated>
+    <updated>2026-06-01T11:00:58+03:00</updated>
     <author>
         <name>Catalin</name>
     </author>
@@ -1056,15 +1056,16 @@ git push --force
             <summary type="html">
                 <![CDATA[
                         <img src="https://botacatalin.github.io/Blog/media/posts/10/book_cover.png" alt="" />
-                    Fiind părinte a doi copii minunați și curioși, mi-am dorit să transpun&hellip;
+                    SCOPUL ACESTEI CĂRȚI ESTE DE A OFERI O SURSĂ EDUCATIVĂ PENTRU TINERII&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
                     <p><img src="https://botacatalin.github.io/Blog/media/posts/10/book_cover.png" class="type:primaryImage" alt="" /></p>
-                <p>Fiind părinte a doi copii minunați și curioși, mi-am dorit să transpun cunoștințele mele tehnice din domeniul informaticii în explicații simple, pe care să le poată înțelege cu ușurință. Această carte este concepută ca o introducere în limbajele de programare pentru copiii de școală primară, oferindu-le prima incursiune în această lume fascinantă.</p>
-<p>Citește gratuit primul capitol aici : <a href="https://botacatalin.github.io/Blog/Capitolul 1 - Povestim cu calculatorul.pdf">Capitolul 1 - Povestim cu calculatorul</a></p>
-<p>Cartea poate fi citită pe mai multe platforme accesând linkul: <a data-start="127" data-end="193" rel="noopener" target="_new" href="https://books2read.com/u/mgwJ2v">https://books2read.com/u/mgwJ2v</a></p>
+                <blockquote>
+<p class="dropcap msg msg--info">SCOPUL ACESTEI CĂRȚI ESTE DE A OFERI O SURSĂ EDUCATIVĂ PENTRU TINERII CITITORI ÎN LIMBA ROMÂNĂ, DESCHIZÂNDU-LE UȘA CĂTRE FASCINANTA LUME A CALCULATOARELOR ȘI A PROGRAMĂRII</p>
+</blockquote>
+<p>Citește gratuit cartea aici : <a href="https://botacatalin.codeberg.page/PovestimCuCalculatorul/">https://botacatalin.codeberg.page/PovestimCuCalculatorul/</a></p>
 <p> </p>
 <p> </p>
             ]]>
