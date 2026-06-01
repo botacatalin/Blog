@@ -3,7 +3,7 @@
     <title>nodes.ro Blog </title>
     <link href="https://botacatalin.github.io/Blog/feed.xml" rel="self" />
     <link href="https://botacatalin.github.io/Blog" />
-    <updated>2026-06-01T11:00:58+03:00</updated>
+    <updated>2026-06-01T11:04:35+03:00</updated>
     <author>
         <name>Catalin</name>
     </author>
@@ -1049,19 +1049,19 @@ git push --force
         </author>
         <link href="https://botacatalin.github.io/Blog/povestim-cu-calculatorul.html"/>
         <id>https://botacatalin.github.io/Blog/povestim-cu-calculatorul.html</id>
-        <media:content url="https://botacatalin.github.io/Blog/media/posts/10/book_cover.png" medium="image" />
+        <media:content url="https://botacatalin.github.io/Blog/media/posts/10/heroBook.png" medium="image" />
             <category term="română"/>
 
         <updated>2025-03-14T06:24:51+02:00</updated>
             <summary type="html">
                 <![CDATA[
-                        <img src="https://botacatalin.github.io/Blog/media/posts/10/book_cover.png" alt="" />
+                        <img src="https://botacatalin.github.io/Blog/media/posts/10/heroBook.png" alt="" />
                     SCOPUL ACESTEI CĂRȚI ESTE DE A OFERI O SURSĂ EDUCATIVĂ PENTRU TINERII&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <p><img src="https://botacatalin.github.io/Blog/media/posts/10/book_cover.png" class="type:primaryImage" alt="" /></p>
+                    <p><img src="https://botacatalin.github.io/Blog/media/posts/10/heroBook.png" class="type:primaryImage" alt="" /></p>
                 <blockquote>
 <p class="dropcap msg msg--info">SCOPUL ACESTEI CĂRȚI ESTE DE A OFERI O SURSĂ EDUCATIVĂ PENTRU TINERII CITITORI ÎN LIMBA ROMÂNĂ, DESCHIZÂNDU-LE UȘA CĂTRE FASCINANTA LUME A CALCULATOARELOR ȘI A PROGRAMĂRII</p>
 </blockquote>

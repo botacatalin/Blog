@@ -112,7 +112,7 @@
             "title": "Povestim cu calculatorul",
             "summary": "SCOPUL ACESTEI CĂRȚI ESTE DE A OFERI O SURSĂ EDUCATIVĂ PENTRU TINERII&hellip;",
             "content_html": "<blockquote>\n<p class=\"dropcap msg msg--info\">SCOPUL ACESTEI CĂRȚI ESTE DE A OFERI O SURSĂ EDUCATIVĂ PENTRU TINERII CITITORI ÎN LIMBA ROMÂNĂ, DESCHIZÂNDU-LE UȘA CĂTRE FASCINANTA LUME A CALCULATOARELOR ȘI A PROGRAMĂRII</p>\n</blockquote>\n<p>Citește gratuit cartea aici : <a href=\"https://botacatalin.codeberg.page/PovestimCuCalculatorul/\">https://botacatalin.codeberg.page/PovestimCuCalculatorul/</a></p>\n<p> </p>\n<p> </p>",
-            "image": "https://botacatalin.github.io/Blog/media/posts/10/book_cover.png",
+            "image": "https://botacatalin.github.io/Blog/media/posts/10/heroBook.png",
             "author": {
                 "name": "Catalin"
             },
@@ -120,7 +120,7 @@
                    "română"
             ],
             "date_published": "2025-03-14T06:24:51+02:00",
-            "date_modified": "2026-06-01T11:00:58+03:00"
+            "date_modified": "2026-06-01T11:04:35+03:00"
         },
         {
             "id": "https://botacatalin.github.io/Blog/prima-zi-in-viata-unui-sistem-fotovoltaic.html",
